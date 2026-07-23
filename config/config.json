@@ -1,19 +1,21 @@
 {
-  "MQTT_HOST": "localhost",
+  "MQTT_HOST": "IP_DO_SERVIDOR_MQTT",
   "MQTT_PORT": 1883,
-  "MQTT_USER": "",
-  "MQTT_PASS": "",
-
+  "MQTT_USER": "USUARIO_MQTT",
+  "MQTT_PASS": "SENHA_MQTT",
   "DB_PATH": "data/monitoramento.db",
   "FIRMWARE_DEFAULT": "firmware/build/firmware.bin",
-
   "DEFAULT_LUGAR": "casa",
   "DEFAULT_MEDICAO": "energia",
-
-  "TOPIC_STATUS":  ["monitoramento_energia/+/+/status", "+/+/+/+/status"],
-  "TOPIC_ACK":     ["monitoramento_energia/+/+/ack", "+/+/+/+/ack"],
-  "TOPIC_MEDICAO": ["monitoramento_energia/+/+/medicao", "+/+/+/+/medicao"],
-
-  "TOPIC_CMD_TEMPLATE": "monitoramento_energia/{ambiente}/{device_id}/cmd",
-  "PUBLISH_COMPAT_BOTH": true
+  "TOPIC_STATUS": [
+    "+/+/+/+/status"
+  ],
+  "TOPIC_ACK": [
+    "+/+/+/+/ack"
+  ],
+  "TOPIC_MEDICAO": [
+    "+/+/+/+/medicao"
+  ],
+  "TOPIC_CMD_TEMPLATE": "{lugar}/{ambiente}/{medicao}/{dispositivo}/cmd",
+  "PUBLISH_COMPAT_BOTH": false
 }
