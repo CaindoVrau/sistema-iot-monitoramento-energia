@@ -201,18 +201,6 @@ ESP32 TX2 / GPIO17 → PZEM RX
 PZEM TX → ESP32 RX2 / GPIO16
 ```
 
-## Documentação
-
-O esquemático elétrico completo está disponível na pasta `docs`.
-
-A descrição detalhada da arquitetura, da metodologia e dos resultados está disponível no Trabalho de Conclusão de Curso:
-
-**Sistema de monitoramento e controle de energia elétrica com arquitetura IoT e aplicação desenvolvida em Python.**
-
-## Observações de segurança
-
-O protótipo trabalha com tensão da rede elétrica. A montagem, manutenção e conferência das conexões de potência devem ser realizadas com o circuito desenergizado e por pessoa tecnicamente qualificada.
-
 ## Autor
 
 Caio Traldi Sant'Ana  
