@@ -3,7 +3,6 @@
 #include <ArduinoJson.h>   // v7
 #include <PubSubClient.h>
 
-// ======= OPCIONAL: PZEM004T v3 =======
 #define USE_PZEM 1                // 1 = ler PZEM004T v3 | 0 = mock
 #if USE_PZEM
   #include <PZEM004Tv30.h>
