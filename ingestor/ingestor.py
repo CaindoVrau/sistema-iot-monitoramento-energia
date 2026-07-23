@@ -11,9 +11,6 @@ from datetime import datetime, timezone, timedelta
 
 import paho.mqtt.client as mqtt
 
-# =========================================
-# Projeto: monitoramento_energia (Ingestor)
-# =========================================
 STALE_SECONDS = 90
 OFFLINE_SCAN_PERIOD_S = 15
 
